@@ -30,7 +30,7 @@ describe('Pruebas en funciones de heroes', () => {
 
     test('Debe de retornar un arreglo con los heroes de DC', () => {
 
-        const owner = 'DC';
+        const owner = 'DC';  
 
         const claseHeroe = getHeroesByOwner(owner);
 
